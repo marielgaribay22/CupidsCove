@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0; 
+}
+h1, h2 {
+  font-family: 'La Graziela Demo', 'Gin and Soda Personal Use',  'BD Megalona DEMO Personal Use Only Regular Italic', 'Arastin Pro  FREE DEMO Regular'; /* Change font family for headers */
+}
+
+
+.hero{
+	height: 85vh;
+	width: 100%;
+	background-color: #E6C3Bf;
+	position: relative;
+}
+nav{
+	display: flex;
+	width: 84%;
+	margin: auto;
+	padding: 20px 0;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 30px 60px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #90012f;
+	font-weight: bold;
+	font-family:"Gin and Soda Personal Use";
+}
+
+nav ul li a:hover{
+	color: #eee0d5;
+}
+
+.slider {
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  gap: 50px;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.slider:hover .slides img {
+  transform: scale(1.1);
+}
+
+header {
+  background-color:#E6C3BF;
+  padding: 20px;
+  font-family:"BD Megalona DEMO Personal Use Only Regular Italic";
+  text-align: center;
+  color: #90012F;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 75px;
+}
+
+.location {
+  padding: 20px;
+  background-color: #E6C3BF;
+  margin-bottom: 20px;
+}
+.location h2 {
+  color: #90012F; 
+	font-size: 48px;
+}
+.location p {
+  color: #90012F#EEE0D5;
+	font-size: 20px;
+}
+
+footer {
+  background-color: #E6C3BF;
+  padding: 10px;
+  text-align: center;
+	font-size: 15px;
+  color: #EEE0D5;
+}
+.content{
+	margin-left: 10%;
+	margin-top: 10%;
+	
+}
+.social{
+	position: absolute;
+	bottom: 35%;
+	right: 30px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.social a img:hover{
+	transform: scale(1.6);
+}
+.href a img:hover{
+	transform: scale(1.6);
+}

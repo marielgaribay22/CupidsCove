@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "La Graziela Demo", "Jazz Club", "Helvetica Neue UltraLight", "Helvetica Neue Thin", "Helvetica Neue Light Italic", "Helvetica Neue Medium", "Helvetica Neue Italic", "Helvetica Neue Condensed Bold", "Helvetica Neue Bold Italic", Helvetica, "Helvetica Bold", Misologist, "Newake Demo", "noelan script", "Noland Bold", "Nougat ExtraBlack", "SF Groove Machine", "Times New Roman", "Times New Roman Bold Italic", "Times New Roman Italic", Blonde, ChopinScript, "CoolveticaRg-Italic", "CoolveticaRg-Regular", "cream DEMO", "Fagies Demo Demo", "Futura Bold", "Gin and Soda Personal Use", "Grandiflora One Regular", "BD Megalona DEMO Personal Use Only Regular Italic", "Arastin Pro  FREE DEMO Regular"
+
+}
+nav{
+	display: flex;
+	width: 84%;
+	margin: auto;
+	padding: 20px 0;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 30px 60px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #90012f;
+	font-weight: bold;
+	font-family:"Gin and Soda Personal Use";
+}
+
+nav ul li a:hover{
+	color: #eee0d5;
+}
+ .content h1{
+	font-size: 40px;
+	font-weight: 100;
+	margin-top: 18px;
+	margin-bottom: 15px;
+	color: #EEE0D5;
+	font-family:'Gin and Soda Personal Use';
+}
+ .content h2{
+	font-size: 45px;
+	font-weight: 100;
+	margin-top: 18px;
+	margin-bottom: 15px;
+	color: #EEE0D5;
+	font-family: 'Gin and Soda Personal Use';
+}
+.content p{
+	font-size: 25px;
+	color: #EEE0D5;
+	font-family:"BD Megalona DEMO Personal Use Only Regular Italic";
+}
+.content{
+	margin-left: 10%;
+	margin-top: 10%;
+}
+.content a{
+	text-decoration: none;
+	padding: 18px 50px;
+	border-radius: 30px;
+	background:#90012F;
+	display: inline-block;
+	color: #EEE0D5;
+	font-weight: 700;
+	font-size: 30px;
+	margin-top: 70px;
+	font-family: "La Graziela Demo";
+	box-shadow: 5px 8px 10px rgba(0, 0, 0,0.1);
+}
+.content{
+	margin-left: 10%;
+	margin-top: 10%;
+	
+}
+.social{
+	position: absolute;
+	bottom: 35%;
+	right: 30px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.social a img:hover{
+	transform: scale(1.6);
+}
+.href a img:hover{
+	transform: scale(1.6);
+}
