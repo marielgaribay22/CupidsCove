@@ -76,6 +76,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 75px;
+  font-family: 'La Graziela Demo';
 }
 
 .location {
@@ -86,6 +87,7 @@ header h1 {
 .location h2 {
   color: #90012F; 
 	font-size: 48px;
+	font-family: 'La Graziela Demo';
 }
 .location p {
   color: #90012F#EEE0D5;
